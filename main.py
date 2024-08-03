@@ -2,7 +2,7 @@ from eeg_data_generation.data_generation_and_labeling import generate_raw_eeg_da
 from eeg_data_generation.transformation import normalize_eeg_data, apply_third_level_wavelet
 
 def main():
-    num_subjects = 5
+    num_subjects = 12
     duration_sec = 30
     sampling_freq = 100
     n_channels = 5
